@@ -27,6 +27,8 @@ vendor/
 
 # Go 编译缓存
 backend/.gocache/
+/.gocache/
+/.gopath/
 
 # ===================
 # Node.js / Vue 前端
@@ -131,6 +133,7 @@ docs/*
 !docs/PAYMENT.md
 !docs/PAYMENT_CN.md
 !docs/ADMIN_PAYMENT_INTEGRATION_API.md
+!docs/1PANEL_DEPLOY_CN.md
 .serena/
 .codex/
 frontend/coverage/
