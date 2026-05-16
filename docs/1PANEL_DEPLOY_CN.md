@@ -27,6 +27,11 @@ cp .env.1panel.example .env
 - `ADMIN_EMAIL`
 - `ADMIN_PASSWORD`（可留空自动生成）
 
+如果服务器访问 npm 官方源不稳定，保留默认值即可：
+
+- `PNPM_VERSION=10.20.0`
+- `NPM_REGISTRY=https://registry.npmmirror.com`
+
 3. 在 1Panel 中创建 Compose 应用
 
 - 编排文件选择 `deploy/docker-compose.1panel.yml`
