@@ -1,0 +1,7 @@
+interface:
+  display_name: "GPT88"
+  short_description: "Connect clients to GPT88 Cloud and API"
+  default_prompt: "Use $gpt88 to connect this client to GPT88 safely."
+
+policy:
+  allow_implicit_invocation: true
